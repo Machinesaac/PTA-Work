@@ -1,13 +1,8 @@
 #include <iostream> 
 using namespace std;
 int main(){
-	int a=0;
-	int b=0;
-	int c=0;
-	int d=0;
-	int e=0;
-	int time;
-	int grade;
+	int a,b,c,d,e=0;
+	int time, grade;
 	cin >> time;
     for (int i= 0;i<time;i++){
     	cin >> grade;
