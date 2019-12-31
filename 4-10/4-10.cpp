@@ -19,8 +19,8 @@ int main()
 	{
 		cin >> stu[i].name >> stu[i].a >> stu[i].b >> stu[i].c;
 		stu[i].ava = (stu[i].a + stu[i].b + stu[i].c) / 3;
-        tmp = (int)(stu[i].ava * 100 + 0.5);
-        stu[i].ava = ((float)tmp / 100);
+                tmp = (int)(stu[i].ava * 100 + 0.5);// 四舍五入两位后
+                stu[i].ava = ((float)tmp / 100);    // 存储
 		stu[i].index = i;
 	}
 	for (int i = 0; i < n-1; i++)
